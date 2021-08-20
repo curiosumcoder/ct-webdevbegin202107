@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+    <!-- SHIFT+ALT+A -->
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/table.css" />
     <style>
         h2 {
             color: #ff0000;
@@ -42,18 +45,35 @@
         span.cantidad {
             background-color: lightseagreen;
         }
+
+        parrafo {
+            background-color: lightblue;
+        }
+
+        /* propiedad */
+        /* p[verso]  */
+        /* p[verso="1"] */
+        [verso="2"] {
+            background-color: red;
+        }
     </style>
 </head>
 
 <body>
     <style></style>
-    <h2 id="titulo">Products</h2>
+    <parrafo>parrafo</parrafo>
+    <p verso="1">Este es un verso</p>
+
+    <h2 id="titulo" 
+    style="font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(137, 203, 233);"
+    >Products</h2>
 
     <section class="bebida descuento">
         <h3>Beverages</h3>
 
         <table>
-            <thead>
+            <thead class="resaltar">
                 <tr>
                     <th>Name</th>
                     <th>QuantityPerUnit</th>
