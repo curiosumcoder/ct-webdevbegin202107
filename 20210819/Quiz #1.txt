@@ -9,7 +9,7 @@ Objetivo: Crear manualmente un documento HTML y modificar algunos valores de pre
 	
 - CSS
 	- Utilizando CSS, modificar el font-family del documento. Cambiar a un tipo de letra de su gusto. Valor: 1 punto.
-	- Utilizando CSS, agregar un borde superior a todos los títulos o subtítulos. Usted define el tamaño, color y ancho. Valor: 2 puntos.
+	- Utilizando CSS, agregar un borde superior a todos los títulos o subtítulos. Usted define el tamaño, color y tipo (solid, dotted, ...). Valor: 2 puntos.
 	- Utilizando CSS, modifique al menos dos atributos de presentación de algunos elementos de su elección dentro del documento. Valor: 2 puntos.
 	
 -- ÚLTIMA LÍNEA --
