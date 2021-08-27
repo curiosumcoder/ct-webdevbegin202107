@@ -28,13 +28,15 @@
         // JavaScript es un lenguaje dinámico
         // Type System
         
-        let b = 1, c = 2; // Number (interos, flotante)
+        let b = 1, c = 2; // Number (enteros, flotante)
         
         // Con un valor se puden hacer OPERACIONES
+        // https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
         //console.log(b + c);
-        let d = b + c; // +, -, *, /, .., ++ , --        
+        let d = b + c; // +, -, *, /, ..., ++ , --, ...
         console.log(d);
-        console.log(++c); // (pre/post)
+        console.log(++c); // (preincremento/postincremento)
 
         // Hileras (string, texto)
         let nombre = 'Gilberto';
@@ -82,27 +84,43 @@
         console.clear();
         console.log('for');
         // i < 5 ----> condición (boolean)
+        // El bloque se ejecuta cuando la condición es true (verdadero)
         for (let i = 0; i < 5; i++) {
             console.log(i);
         }
 
         // i < ar1.length ----> condición (boolean)
+        // El bloque se ejecuta cuando la condición es true (verdadero)
         for (let i = 0; i < ar1.length; i++) {
             console.log(ar1[i]);
             // break;
         }
 
-        // Ciclo
+        // Ciclos
         console.clear();
-        let j = 5;        
+        let j = 5;  
+        // j > 0 ----> condición (boolean)
+        // El bloque se ejecuta cuando la condición es true (verdadero)
         while (j > 0) {
             console.log(j);
             j = j - 1; // j--;
         }
 
+        // Operadores condicionales
+        let c1 = 1 < 2;
+        c1 = 2 >= 3;
+        c1 = 2 == 3; // Comparación de igualdad
+        c1 = b == c; // Comparación de igualdad (referencia)
+        c1 = b === c; // Comparación de igualdad (valor y tipo)        
+                        
     </script>
+    <!-- <style>
+        @import url(lista.css);
+    </style> -->
+    <link href="lista.css" rel="stylesheet" />
 </head>
 <body>
     <h1>JavaScript</h1>
+    <script src="lista.js"></script>
 </body>
 </html>
