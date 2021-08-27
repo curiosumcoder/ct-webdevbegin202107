@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        console.log('Hello World!');
+
+        // Contexto de ejecución
+        // Case sensitive
+
+        // INPUT -> PROCESS -> OUTPUT
+        //            <->
+        //          STORAGE
+
+        // Palabras reservadas (let, const, var, class, ...)
+        //var a;
+        let a0; // Declaración de VARIABLE
+        a0 = 1; // Asignación de VALOR a variable
+        let a = 1; // Declaración y asignación de valor
+        // a = 'Hello World!';
+
+        const PI = 3.14; // Constante (no se puede cambiar el valor)
+
+        // El valor es de algún TIPO        
+        // JavaScript es un lenguaje dinámico
+        // Type System
+        
+        let b = 1, c = 2; // Number (interos, flotante)
+        
+        // Con un valor se puden hacer OPERACIONES
+        //console.log(b + c);
+        let d = b + c; // +, -, *, /, .., ++ , --        
+        console.log(d);
+        console.log(++c); // (pre/post)
+
+        // Hileras (string, texto)
+        let nombre = 'Gilberto';
+        let apellido = "Bermúdez";
+        let nombreCompleto = nombre + apellido;
+        nombreCompleto = nombre + ' ' + apellido; // Concatenación de hileras
+        nombreCompleto = nombreCompleto.toUpperCase();
+        console.log(nombreCompleto);
+
+        let nc2 = `${apellido}, ${nombre}`; // back-tick
+        console.log(nc2);
+
+        const edad = 44;
+        // Conversión de tipos 
+        // - implícita (auto)
+        // - explícita (Number(), Boolean(), ...)
+        let nc3 = `${apellido}, ${nombre},\n ${edad} años😀`;
+        console.log(nc3);
+
+        // Boolean
+        let b1 = true;
+        let b2 = false;
+        // Operaciones lógicas (&&, ||, ..), binarias (&, |, ..)
+        let b3 = b1 && b2; // AND
+        let b4 = b1 || b2; /// OR
+
+        // Arreglos (colecciones, listas)
+        let ar1 = ['San José', 'Cartago', 2000, 2020, true];
+        // índice basado en cero
+        console.log(ar1[1]);
+        let ar2 = [['San José', 'Cartago'], [2000, 2020], true];
+        console.log(ar2[1][1]);
+
+        // Iteraciones
+        // for .. of
+        console.clear();
+        console.log('for ... of');
+
+        {} // Bloque de código
+
+        for (const v1 of ar1) {            
+            console.log(v1);
+        }
+        
+        console.clear();
+        console.log('for');
+        // i < 5 ----> condición (boolean)
+        for (let i = 0; i < 5; i++) {
+            console.log(i);
+        }
+
+        // i < ar1.length ----> condición (boolean)
+        for (let i = 0; i < ar1.length; i++) {
+            console.log(ar1[i]);
+            // break;
+        }
+
+        // Ciclo
+        console.clear();
+        let j = 5;        
+        while (j > 0) {
+            console.log(j);
+            j = j - 1; // j--;
+        }
+
+    </script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+</body>
+</html>
