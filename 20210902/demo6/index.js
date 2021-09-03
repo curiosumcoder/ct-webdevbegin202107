@@ -109,3 +109,7 @@ function multiplicar(a,b) {
 //console.log(`La suma de 3 + 4 = ${sumar(3,4)}`);
 let s = sumar(3,4);
 console.log(`La suma de 3 + 4 = ${s}`);
+
+// alert('Hello World!')
+
+// let v1 = prompt('Digite el valor 1')

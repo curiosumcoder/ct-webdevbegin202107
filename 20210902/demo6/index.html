@@ -14,6 +14,18 @@
         <li>Compilador <p></p></li>
         <li>Interprete <p>JavaScript, Python, Lua, ...</p></li>
     </ul>
+    <script>
+        document.addEventListener('DOMContentLoaded', function (params) {
+            console.log('ready!');
+
+            let v1 = prompt('Digite el primer valor');
+            v1 = Number(v1);
+            let v2 = prompt('Digite el segundo valor');
+            v2 = Number(v2);
+            let resultado = sumar(v1,v2);
+            alert(`El resultado de la suma es ${resultado}`);
+        });
+    </script>
 </body>
 
 </html>
