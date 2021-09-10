@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+#calculadora {
+    width: 20em;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+#botones {
+    display: grid;
+    grid-template-columns: 5em 5em;
+    gap: 0.5em;
+}
+
+#botones > button {
+    width: 2em;
+    height: 2em;
+    font-size: x-large;
+    box-shadow: 4px 4px 10px rgb(63, 160, 84);
+    border-radius: 10px 5px;
+    cursor: pointer;
+}
+
+#botones > button:hover {
+    background-color: thistle;
+}
+
+#iValor {
+    font-size: large;
+    border: 2px solid blue;
+}
+
+#iValor:focus {
+    background-color: yellow;
+}

@@ -63,18 +63,18 @@ switch (a1) {
 }
 
 // console.clear();
-// a1 = 0;
-// j = 100;
-// switch (a1) {
-//     case a1 === 100:
-//         console.log(`a1 = ${a1}, es igual que 30.`);
-//         break;
-//     // case a1 > 0 && j > 10:
-//     //     console.log('j es mayor que 10!');
-//     //     break;            
-//     default:
-//         break;
-// }
+a1 = 0;
+j = 100;
+switch (a1) {
+    case a1 === 100:
+        console.log(`a1 = ${a1}, es igual que 30.`);
+        break;
+    // case a1 > 0 && j > 10:
+    //     console.log('j es mayor que 10!');
+    //     break;            
+    default:
+        break;
+}
 
 // a == b, a === b // Comparar igualdad
 // a != b, a !== b // Comparar diferencia

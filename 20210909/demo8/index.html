@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>    
+    <!-- Común -->
+    <!-- <link rel="stylesheet" href="css/calc.css" /> -->
+    <style>
+        @import url(css/calc.css);
+    </style>
+    <!-- <script>
+        let t = bSuma;
+    </script> -->
+    <script src="js/calc.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form id="calculadora">
+        <fieldset>
+            <legend>Resultado: <span id="resultado">0</span></legend>
+            <input id='iValor'  type="number" placeholder="Digite un número" step="0.1" value="0" required  />
+        </fieldset>
+        <fieldset id="botones">
+            <button id="bSuma">+</button>
+            <button id="bResta">-</button>
+            <button id="bMultiplica">*</button>
+            <button id="bDivide">/</button>    
+        </fieldset>
+    </form>
+</body>
+</html>
