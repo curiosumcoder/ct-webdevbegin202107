@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 239, 187);
+}
+
+#calculadora {
+    width: 20em;
+    margin: 1em auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    padding: 0.5em;
+    background-color: rgba(211, 211, 211, 0.65);
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset > legend {
+    font-size: large;
+    font-weight: bold;
+}
+
+#botones {
+    display: grid;
+    grid-template-columns: 5em 5em 2em;
+    gap: 0.5em;
+}
+
+#botones > button {
+    width: 2em;
+    height: 2em;
+    font-size: x-large;
+    box-shadow: 4px 4px 10px rgb(63, 160, 84);
+    border-radius: 10px 5px;
+    cursor: pointer;
+}
+
+#botones > button:hover {
+    background-color: thistle;
+}
+
+#iValor {
+    font-size: large;
+    border: 1px solid blue;
+    height: 2em;
+}
+
+#iValor:focus {
+    background-color: yellow;
+}

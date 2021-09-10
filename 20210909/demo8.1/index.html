@@ -10,23 +10,22 @@
     <style>
         @import url(css/calc.css);
     </style>
-    <!-- <script>
-        let t = bSuma;
-    </script> -->
     <script src="js/calc.js"></script>
+    <script src="js/calcApp.js"></script>
 </head>
 <body>
-    <h1>Acumulador</h1>
     <form id="calculadora">
         <fieldset>
-            <legend>Resultado: <span id="resultado">0</span></legend>
-            <input id='iValor'  type="number" placeholder="Digite un número" step="0.1" value="0" required  />
+            <legend>Calculadora</legend>
+            <input id='iValor'  type="number" placeholder="Digite un número" step="0.1" required  />
         </fieldset>
         <fieldset id="botones">
-            <button id="bSuma">+</button>
-            <button id="bResta">-</button>
-            <button id="bMultiplica">*</button>
-            <button id="bDivide">/</button>    
+            <button>+</button>
+            <button>-</button>
+            <button>C</button>
+            <button>*</button>
+            <button>/</button>
+            <button>=</button>                
         </fieldset>
     </form>
 </body>
