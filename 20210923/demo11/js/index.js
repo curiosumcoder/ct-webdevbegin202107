@@ -33,6 +33,22 @@ $(function () {
                     </a></li>`);
           });
           $(items.join('')).appendTo('#lResults');
+
+          $("a[data-id]").click(function (event) {
+            event.preventDefault();
+            console.log(this.dataset["id"]);
+            $.getJSON(`products/${this.dataset["id"]}`, function (data) {
+              console.log(data);
+
+              $('#exampleModal .modal-body').html(data.productName);
+
+              let myModal = new bootstrap.Modal(
+                document.getElementById("exampleModal")
+              );
+              myModal.show();
+            });
+          });
+
         } else {
           $('<p>¡No se encontraron datos!</p>').appendTo('#lResults');
         }
