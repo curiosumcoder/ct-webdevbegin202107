@@ -9,3 +9,8 @@
 - npm install
 - npm run dev
 - npm run build
+---------------------------------------------
+- crear una nueva carpeta e ingresar a ella.
+- npm init -y
+- npm i --save-dev @11ty/eleventy
+- npm run build
