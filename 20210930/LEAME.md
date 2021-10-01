@@ -9,6 +9,7 @@
 - npm install
 - npm run dev
 - npm run build
+- npm i svelte-navigator --save
 ---------------------------------------------
 - crear una nueva carpeta e ingresar a ella.
 - npm init -y
