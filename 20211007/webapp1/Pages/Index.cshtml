@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>Penuntima clase 😊❤️😁</h1>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<script>
+    document.addEventListener('click', event => {
+        //alert('OK! @DateTime.Now');
+    })
+
+    document.querySelector('h1').addEventListener('click', event => {
+        alert('Click en el título');
+    })
+</script>
+
+<form method="post">
+    <input name="filter" type="text" 
+    placeholder="Type here .." value="@Model.Filter" />
+    <button type="submit">Search</button>
+</form>
+@Model.Message
+
+@DateTime.Now
